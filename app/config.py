@@ -11,3 +11,4 @@ class Config(object):
     ADMIN_PASSWORD = os.environ.get('ADMIN_PASSWORD', 'Password123')
     UPLOAD_FOLDER = os.environ.get("UPLOAD_FOLDER")
     SAFE_FORMATS = ['jpg', 'png', 'jpeg']
+    
